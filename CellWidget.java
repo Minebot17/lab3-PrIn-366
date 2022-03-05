@@ -62,7 +62,7 @@ public class CellWidget extends JPanel {
             toolTip.append(entry.getKey()).append(" = ").append(entry.getValue());
             toolTip.append("<br>");
         }
-
+//fist commit in branch
         toolTip.append("</div></html>");
         return toolTip.toString();
     }
