@@ -7,6 +7,7 @@ public class SimpleRobotApplication {
 
     public static void main(String[] args) {
 
+		// serpinin main 2
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
                 GameFrame mainW = new GameFrame();
