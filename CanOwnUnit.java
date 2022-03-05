@@ -4,7 +4,7 @@ package Model.ownership;
 public interface CanOwnUnit {
 
     Unit getUnit();
-    boolean isEmpty(); //empty
+    boolean isEmpty(); 
 
     boolean putUnit(Unit init);
     Unit extractUnit();
