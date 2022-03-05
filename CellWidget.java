@@ -1,8 +1,8 @@
 package View;
-
+// first commit in main
 import Model.gamefield.Cell;
 import Model.ownership.Unit;
-
+// second commit in main
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
