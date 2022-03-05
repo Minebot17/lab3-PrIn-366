@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 
 import Model.units.Robot;
-
+// myakinina 1 main
 // Прямоугольное поле, состоящее из ячеек
 public class GameField implements Iterable<Cell> {
 
@@ -16,7 +16,7 @@ public class GameField implements Iterable<Cell> {
     public int width() {
         return _width;
     }
-
+	// myakinina 3 main
     public int height() {
         return _height;
     }

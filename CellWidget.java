@@ -57,12 +57,12 @@ public class CellWidget extends JPanel {
     @Override
     public String getToolTipText(MouseEvent e)  {
         StringBuilder toolTip = new StringBuilder("<html><div align=\"left\">");
-
+//second commit in branch
         for(Map.Entry entry: _cell.characteristics().entrySet()) {
             toolTip.append(entry.getKey()).append(" = ").append(entry.getValue());
             toolTip.append("<br>");
         }
-
+//fist commit in branch
         toolTip.append("</div></html>");
         return toolTip.toString();
     }
