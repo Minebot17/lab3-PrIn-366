@@ -16,7 +16,7 @@ public class GameField implements Iterable<Cell> {
     public int width() {
         return _width;
     }
-
+	// myakinina 3 main
     public int height() {
         return _height;
     }
