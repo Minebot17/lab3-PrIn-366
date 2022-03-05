@@ -35,7 +35,7 @@ public class Direction {
         return new Direction(9);
     }
 
-
+	//My second comment
     // ------------------ Новые направления ---------------------
 
     public Direction clockwise() {
