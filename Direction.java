@@ -86,7 +86,7 @@ public class Direction {
         hash = 53 * hash + this._hours;
         return hash;
     }
-
+	//My fifth comment
     @Override
     public String toString() {
         String msg = "";
